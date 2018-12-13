@@ -1,12 +1,13 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto|Work+Sans');
 
 body {
-  background: #ccc;
+  background: white;
   font-family: 'Work Sans', sans-serif, 'Roboto', sans-serif;
   font-size: 1em;
   line-height: 1.5em;
   margin: 0;
   padding: 0;
+  color: #3f3d3d;
 }
 
 .container {
@@ -33,7 +34,7 @@ img {
 
 #navbar a {
   text-decoration: none;
-  color: #888;
+  color: #3f3d3d;
 }
 
 #navbar li.current a, #navbar a:hover {
@@ -46,11 +47,34 @@ img {
 #showcase {
   /* background: url('../images/nhl-seattle.jpg') no-repeat center center; */
   font-family: 'Roboto', sans-serif;
+
 }
 
 #showcase .row {
   height: 600px;
 }
+
+#rowTwo {
+  border-bottom: 1px solid black;
+  padding-bottom: 10px;
+}
+
+/* features */
+
+#features h2 {
+
+  font-size: 2.8em;
+  line-height: 1em;
+}
+
+.feature {
+  padding: 100px;
+}
+
+/* #features h4 {
+  border-bottom: 5px solid red;
+  width: 60px;
+} */
 
 /* call to action */
 #callToAction {
@@ -65,4 +89,33 @@ img {
 
 i {
   font-size: 2em;
+}
+
+/* company */
+/* #company {
+  background: #333;
+  color: #fff;
+  padding: 10px 0;
+} */
+
+#company h4 {
+  text-transform: uppercase;
+  margin-bottom: 0;
+}
+
+#company ul {
+  padding: 0;
+  list-style: none;
+  line-height: 2em;
+}
+
+#company input[type="text"] {
+  padding: 7px;
+}
+
+#company button {
+  background: #222;
+  color: #fff;
+  padding: 10px;
+  border: 0;
 }
